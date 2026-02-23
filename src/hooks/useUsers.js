@@ -14,7 +14,7 @@ export default function useUsers() {
         setUsers(response.data);
         showSuccess("Users loaded successfully")
       } catch (error) {
-        showError("Failed to fetch users")
+        showError("Failed to fetch users!!")
         console.log(error)
       }
       finally{
